@@ -3,16 +3,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.Conference.Core", "Cirrious.Conference.Core\Cirrious.Conference.Core.csproj", "{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.Conference.UI.Touch", "Cirrious.Conference.UI.Touch\Cirrious.Conference.UI.Touch.csproj", "{7907C17C-6555-49D8-95B4-85DA8380C804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.Conference.UI.WP7", "Cirrious.Conference.UI.WP7\Cirrious.Conference.UI.WP7.csproj", "{B510D8D0-2B3F-44C4-BD01-15E520FFDDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.Conference.UI.Droid", "Cirrious.Conference.UI.Droid\Cirrious.Conference.UI.Droid.csproj", "{3A9A6291-52FF-4CF1-AA52-45FE98A80090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.Conference.UI.WindowsStore", "Cirrious.Conference.UI.WindowsStore\Cirrious.Conference.UI.WindowsStore.csproj", "{082250FB-CE17-4377-8254-41920BB87298}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		AdHoc|iPhone = AdHoc|iPhone
+		AdHoc|iPhoneSimulator = AdHoc|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.AdHoc|iPhone.ActiveCfg = Debug|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.AdHoc|iPhone.Build.0 = Debug|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.AdHoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.AdHoc|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Release|iPhone.Build.0 = Release|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.AdHoc|iPhone.ActiveCfg = AdHoc|iPhone
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.AdHoc|iPhone.Build.0 = AdHoc|iPhone
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.AdHoc|iPhoneSimulator.ActiveCfg = AdHoc|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.AdHoc|iPhoneSimulator.Build.0 = AdHoc|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Release|iPhone.Build.0 = Release|iPhone
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7907C17C-6555-49D8-95B4-85DA8380C804}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Cirrious.Conference.Core\Cirrious.Conference.Core.csproj

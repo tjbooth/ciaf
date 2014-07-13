@@ -1,0 +1,82 @@
+﻿[
+{"Name":"Band du Jour","URL":"http://www.banddejour.com/","Image":"bdj.png","Level":"Premium","Description":"Bringing their energetic style to perform anthems from the likes of Kings of Leon, Killers, Kasabian and many other bands that don't all begin with a K. Bring your dancing shoes, your singalong voice and get ready to party!"},
+{"Name":"Burnsright","URL":"https://www.facebook.com/burnsrightband","Image":"burnsright.png","Level":"Premium","Description":"Get your groove on with this strong folksy blues-influenced group.  Try as you might you're going to be dancing along to their great grooves."},
+{"Name":"CIAF Choir","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"ciaf2014.png","Level":"Premium","Description":"Come listen to our own in house singers"},
+{"Name":"Custard","URL":"https://soundcloud.com/thecustard","Image":"custard.png","Level":"Premium","Description":"Some Trance, Progressive Trance, Uplifting Trance and Uplifting House for your delectation. Classic sounds to help you rave the night away."},
+{"Name":"DanDoodle","URL":"https://soundcloud.com/dannyshort-2","Image":"dand.png","Level":"Premium","Description":"Playing a combo of 20s, 30s + 40s swing sounds and contemporary EDM. He's been kicking off dance floors for quite some time now (he's old enough to know better!) Come and have a boogie to some banging vintage beats"},
+{"Name":"Deviant","URL":"https://soundcloud.com/deviant-inc","Image":"deviant.png","Level":"Premium","Description":"A fine selection of Breakbeat, Big Bass Party Breakz, and some Drum'n'Bass to get you up and moving!"},
+{"Name":"Dialog","URL":"https://soundcloud.com/dialog","Image":"dialog.png","Level":"Premium","Description":"Rousing you from your slumber with some tasty floaty breakfast beats."},
+{"Name":"DJ Competition Winner","URL":"http://www.headspacestores.com/home","Image":"head.png","Level":"Premium","Description":"Head Space competion winner"},
+{"Name":"Family Breakfast DJs","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"camp.png","Level":"Premium","Description":"Eat breakfast whilst tucking into your full English"},
+{"Name":"Fiend Reflex","URL":"https://soundcloud.com/fiendreflex","Image":"fiends.png","Level":"Premium","Description":"This is your man if you like a mixture, Drum'n'Bass, Breakbeat, Dubstep, Electro, House and more!"},
+{"Name":"Grizzly & The Grasshoppers","URL":"http://www.grizzlyandthegrasshoppers.com/new","Image":"gandg.png","Level":"Premium","Description":"This rootsy, bluesy and very hairy band of music makers and troubadours will be in residence."},
+{"Name":"Ibiza Choonz","URL":"http://www.mixcloud.com/IbizaChoons/","Image":"ic.png","Level":"Premium","Description":"Says what is is on the tin! Get ready for the return of Balearic Funky House beats, a chilled vibe and electro-house anthems."},
+{"Name":"Indigo Stars","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"is.png","Level":"Premium","Description":"Another Chilled in a Field Festival favourite back to charm your heart with beautiful vocals and an acoustic guitar."},
+{"Name":"Keni.DJ","URL":"http://www.keni.dj","Image":"keni.png","Level":"Premium","Description":"Captain Hectic presents: keni.dj - He plays an eclitic, but not hectic, mix of house and psy on the progressive side of life."},
+{"Name":"Luli","URL":"http://waxdj.com/djs/5067/","Image":"luli.png","Level":"Premium","Description":"Enjoy some Tech House and House from this great new addition to our DJ lineup"},
+{"Name":"Nibbler","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"nib.png","Level":"Premium","Description":"Returning to entertain and relax you with his unique, chilled, yet uplifting global-inspired vibes."},
+{"Name":"PLUM Live","URL":"http://www.plumtunes.com/","Image":"plum.png","Level":"Premium","Description":"Come check out the dark and glitchy left-field electro-pop beats of Scotland's 'Best Electronic Act' (SAMA 2013). A female solo act, Plum is a bit of a mad scientist on stage, so get your dancing shoes at the ready and get involved!"},
+{"Name":"Poppy Janella","URL":"https://www.facebook.com/poppyjanella","Image":"poppy.png","Level":"Premium","Description":"We're very excited to be hosting another talented artist's debut performance, come and experience Poppy's gorgeous covers."},
+{"Name":"Robyn Keen","URL":"https://www.facebook.com/RobynKeenMusic","Image":"robyn.png","Level":"Premium","Description":"Prepare for the return of the wonderful Robyn, back to make you smile with her unique relaxed and laid back style!"},
+{"Name":"Saturday Sun","URL":"http://saturdaysun.get-ctrl.com/","Image":"satsun.png","Level":"Premium","Description":"Come and feel the acoustic melodies ebbing and flowing with this mesmerising band joining us for the first time this year."},
+{"Name":"She Drew The Gun","URL":"http://www.shedrewthegun.com/","Image":"shedrew.png","Level":"Premium","Description":"Yes this fantastic lady with the guitar is back by popular demand."},
+{"Name":"Silver Back","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"silver.png","Level":"Premium","Description":"A chillout legend with and eclectic sound getting you ready for Sunday afternoon in the field"},
+{"Name":"SMILE for The Big Festival Photo","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"photo.png","Level":"Premium","Description":"Watch the birdy *tweet* *tweet*"},
+{"Name":"Tailor Birds","URL":"http://tailorbirds.bandcamp.com/","Image":"tailorbirds.png","Level":"Premium","Description":"They'll be bringing their crossover of electronic, experimental and classical sounds, moving between instrumental tracks, and beautiful ballads."},
+{"Name":"Tequilla Slammer","URL":"http://www.djtequila.com/","Image":"tequilla.png","Level":"Premium","Description":"With PsyBreaks and uplifting classics we are very very pleased to welcome Tequila Slammer back to the Field!"},
+{"Name":"The Buffalo Skinners","URL":"http://www.thebuffaloskinners.com/","Image":"bufskin.png","Level":"Premium","Description":"Described as a folk-punk-blues-riot this bouncy band will have you dancing around the field"},
+{"Name":"The Cardigan Pimps","URL":"https://www.facebook.com/TheCardiganPimps","Image":"cardiganpimps.png","Level":"Premium","Description":"Relive the great indie sounds of the 1990s with this fantastic group"},
+{"Name":"Tribe of Tinkers","URL":"https://www.youtube.com/user/TribeOfTinkers","Image":"totciaf.png","Level":"Premium","Description":"Well it just wouldn't be Chilled in a Field Festival without the sound of this amazing 8-piece folk getting our feet a-stompin'"},
+{"Name":"U-4-I-C","URL":"http://www.global-trance.co.uk/fr_index.html?/U-4-IC.html","Image":"u4ic.png","Level":"Premium","Description":"The legend that is U4IC makes his Chilled debut, we are so lucky! O and if you've not worked it out yet U-4-IC is a phonetic pronunciation of 'Euphoric'."},
+{"Name":"Voodoo","URL":"https://soundcloud.com/voodootronix","Image":"voodoo.png","Level":"Premium","Description":"Roll up, roll up! He's here and ready to get you dancing with some seriously euphoric drum'n'bass!"},
+{"Name":"Wheel of Genres","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"wog.png","Level":"Premium","Description":"The Wheel of Genres will make a welcome return."},
+	{	
+		"Name":"The Bar",
+		"Url":"http://www.chilledinafieldfestival.co.uk/the-bar.html",
+		"Image":"bar.png",
+		"Level":"Exhibitor",
+		"Description":"Fine Local Ales, Cider, Wine, Cocktails………… Is it a bar or a mini beer festival?"
+	},
+	{		
+		"Name":"Main Stage",
+		"Url":"http://www.chilledinafieldfestival.co.uk/music.html",
+		"Image":"stage.png",
+		"Level":"Exhibitor",
+		"Description":"We're proud to introduce the Chilled in a Field Festival Stage - taking music out from under cover and into the field where it belongs!"	
+	},
+	{		
+		"Name":"The Woods",
+		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Image":"woods.png",
+		"Level":"Exhibitor",
+		"Description":"Woods area"	
+	},
+	{	
+		"Name":"The Activitree",
+		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Image":"tree.png",
+		"Level":"Exhibitor",
+		"Description":""
+	},
+	{		
+		"Name":"Tea Tent",
+		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Image":"tea.png",
+		"Level":"Exhibitor",
+		"Description":""	
+	},
+	{		
+		"Name":"Play Tent",
+		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Image":"play.png",
+		"Level":"Exhibitor",
+		"Description":""	
+	},
+	{	
+		"Name":"The Field",
+		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Image":"field.png",
+		"Level":"Exhibitor",
+		"Description":""	
+	}
+]

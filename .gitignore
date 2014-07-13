@@ -6,3 +6,19 @@
 *.dll
 
 Cirrious.Conference.Core/packages/MvvmCross.PortableSupport.3.1.1/lib/portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch/_._
+
+*.userprefs
+
+Cirrious.Conference.UI.Droid/packages/MvvmCross.HotTuna.StarterPack.3.1.1/content/MonoAndroid/DebugTrace.cs.pp
+
+Cirrious.Conference.UI.Droid/packages/MvvmCross.HotTuna.StarterPack.3.1.1/content/MonoAndroid/LinkerPleaseInclude.cs.pp
+
+Cirrious.Conference.UI.Droid/packages/MvvmCross.HotTuna.StarterPack.3.1.1/content/MonoAndroid/Resources/Drawable/splash.png
+
+Cirrious.Conference.UI.Droid/packages/MvvmCross.HotTuna.StarterPack.3.1.1/content/MonoAndroid/Resources/Layout/FirstView.axml
+
+Cirrious.Conference.UI.Droid/packages/MvvmCross.HotTuna.StarterPack.3.1.1/content/MonoAndroid/Resources/Layout/SplashScreen.axml
+
+Cirrious.Conference.UI.Droid/packages/MvvmCross.HotTuna.StarterPack.3.1.1/content/MonoAndroid/Resources/Values/MvxBindingAttributes.xml
+
+Cirrious.Conference.UI.Droid/packages/MvvmCross.HotTuna.StarterPack.3.1.1/content/MonoAndroid/Resources/Values/SplashStyle.xml

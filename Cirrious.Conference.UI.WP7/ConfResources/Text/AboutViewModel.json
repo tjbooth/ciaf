@@ -1,0 +1,21 @@
+﻿
+{
+"PageTitle":"About...",
+"SQLBitsXApp":"This App",
+"AboutSQLBitsXApp":"The Chilled in a Field app was made by @themobileguy with help from Tom Booth and Paul Mayes.\n\nIt's written in C# using the MvvmCross framework on top of Microsoft's WP8 SDK, and Xamarin's MonoTouch and MonoDroid products.\n\nFor more information about this app:",
+"SQLBitsX":"Chilled in a Field",
+"AboutSQLBitsX":"'Chilled in a Filed is happening  1st to 3rd August 2014.\n\n ",
+"SQLBits":"Chilled in a Field",
+"AboutSQLBits":"'About Chilled in a Field",
+"SQLBitsLinkText":"chilledinafieldfestival.co.uk",
+"MvvmCross":"MvvmCross",
+"AboutMvvmCross":"This framework is built on top of the MonoTouch, Mono for Android and Microsoft tools and enables you to share your C# .Net code efficiently and effectively across Apple, Google, and Microsoft mobile operating systems.\n\nIf you'd like to build an app, if you'd like us to build an app for you, or simply if you'd like to find out more:",
+"StuartLinkText":"email @themobileguy",
+"ForMvvmSource":"The source is licensed under MS-Pl and is available on GitHub:",
+"MvvmCrossLinkText":"MvvmCross",
+"ForXamarin":"For information about Xamarin's products:",
+"MonoTouch":"MonoTouch",
+"MonoForAndroid":"Mono for Android",
+"Disclaimer":" ",
+"DisclaimerMono":"Disclaimer: MvvmCross were produced independently by Stuart Lodge of Cirrious Ltd UK - they are in not produced or officially endorsed by Xamarin."
+}
