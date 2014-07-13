@@ -57,6 +57,12 @@ Global
 		{7907C17C-6555-49D8-95B4-85DA8380C804}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Cirrious.Conference.Core\Cirrious.Conference.Core.csproj
+		StartupItem = Cirrious.Conference.UI.Touch\Cirrious.Conference.UI.Touch.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.VersionControlPolicy = $2
+		$2.inheritsSet = Mono
 	EndGlobalSection
 EndGlobal
