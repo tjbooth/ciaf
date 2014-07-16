@@ -37,6 +37,8 @@ namespace Cirrious.Conference.UI.Touch
         {
             base.ViewDidLoad();
 
+			base.View.BackgroundColor = UIColor.FromRGB (117, 201, 239);
+
             //NavigationItem.SetRightBarButtonItem(new UIBarButtonItem("Tweet", UIBarButtonItemStyle.Bordered, (sender, e) => ViewModel.DoShareGeneral()), false);
 
             // Perform any additional setup after loading the view, typically from a nib.

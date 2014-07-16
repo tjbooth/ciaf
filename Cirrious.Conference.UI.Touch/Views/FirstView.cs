@@ -12,7 +12,7 @@ namespace Cirrious.Conference.UI.Touch.Views
     {
         public override void ViewDidLoad()
         {
-            View = new UIView(){ BackgroundColor = UIColor.White};
+			View = new UIView(){ BackgroundColor = UIColor.FromRGB(117,201,239)};
             base.ViewDidLoad();
 
 			// ios7 layout

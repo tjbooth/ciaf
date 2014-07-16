@@ -23,7 +23,7 @@ namespace Cirrious.Conference.UI.Touch
         {
             base.ViewDidLoad();
 
-            View.BackgroundColor = UIColor.Black;
+			View.BackgroundColor = UIColor.FromRGB(117,201,239);
 			
 			//NavigationItem.SetRightBarButtonItem(new UIBarButtonItem("Tweet", UIBarButtonItemStyle.Bordered, (sender, e) => ViewModel.DoShareGeneral()), false);			
 			
@@ -67,7 +67,7 @@ namespace Cirrious.Conference.UI.Touch
             _currentTop += 10;
             var frame = new RectangleF(10, _currentTop, 300, 30);
             var view = new UILabel(frame);
-            view.BackgroundColor = UIColor.Black;
+			view.BackgroundColor = UIColor.FromRGB(117,201,239);
             view.TextColor = UIColor.White;
             view.Text = GetText(which);
             view.Font = UIFont.FromName("Helvetica", 17);
@@ -84,7 +84,7 @@ namespace Cirrious.Conference.UI.Touch
             var size = nsText.StringSize(font, new SizeF(300,100000), UILineBreakMode.WordWrap);
             var frame = new RectangleF(10, _currentTop, 300, size.Height);
             var view = new UILabel(frame);
-            view.BackgroundColor = UIColor.Black;
+			view.BackgroundColor = UIColor.FromRGB(117,201,239);
             view.AutoresizingMask = UIViewAutoresizing.None;
             view.AdjustsFontSizeToFitWidth = false;
             view.TextColor = UIColor.White;
@@ -106,7 +106,7 @@ namespace Cirrious.Conference.UI.Touch
             var frame = new RectangleF(10, _currentTop, 280, 37);
             var button = UIButton.FromType(UIButtonType.Custom);
             button.Frame = frame;
-            button.BackgroundColor = UIColor.Black;
+			button.BackgroundColor = UIColor.FromRGB (117, 201, 239);
             button.SetTitleColor(UIColor.White, UIControlState.Normal);
             button.SetTitle(GetText(whichText), UIControlState.Normal);
             button.SetImage(UIImage.FromFile("ConfResources/Images/" + image + ".png"), UIControlState.Normal);

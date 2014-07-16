@@ -48,7 +48,7 @@ namespace Cirrious.Conference.UI.Touch
             this.AddBindings(new Dictionary<object, string>()
                 {
                     { Button1, "TouchUpInside ShowSponsorsCommand" },				
-                    { Button2, "TouchUpInside ShowExhibitorsCommand" },				
+                    { Button2, "TouchUpInside ShowExhibitionCommand" },				
                     { Button3, "TouchUpInside ShowMapCommand" },				
                     { Button4, "TouchUpInside ShowAboutCommand" },				
                 });

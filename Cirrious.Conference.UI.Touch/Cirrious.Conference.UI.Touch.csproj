@@ -56,7 +56,6 @@
     </MtouchI18n>
     <MtouchSdkVersion>5.0</MtouchSdkVersion>
     <MtouchExtraArgs>-aot "nrgctx-trampolines=4096" -aot "nimt-trampolines=4096" -aot "ntrampolines=4096"</MtouchExtraArgs>
-    <NoStdLib>True</NoStdLib>
     <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
@@ -66,7 +65,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>False</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution: Keni Barwick (38MATVDA4V)</CodesignKey>
     <IpaPackageName>
     </IpaPackageName>
     <MtouchI18n>
@@ -74,6 +73,8 @@
     <MtouchUseLlvm>True</MtouchUseLlvm>
     <MtouchArch>ARMv7</MtouchArch>
     <MtouchExtraArgs>-aot "nrgctx-trampolines=4096" -aot "nimt-trampolines=4096" -aot "ntrampolines=4096"</MtouchExtraArgs>
+    <CodesignProvision>BCC9D638-6EDF-4363-B931-D099E4EF9ADA</CodesignProvision>
+    <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AdHoc|iPhone' ">
     <DebugType>none</DebugType>
@@ -399,8 +400,6 @@
     <Content Include="ConfResources\star_grey45.png" />
     <Content Include="Images\Icons\50_icon.png" />
     <Content Include="Images\Icons\72_icon.png" />
-    <Content Include="Default-Landscape~ipad.png" />
-    <Content Include="Default-Portrait~ipad.png" />
     <Content Include="Images\Tabs\sessions.png" />
     <Content Include="Images\Tabs\home.png" />
     <Content Include="Images\Tabs\twitter.png" />
@@ -462,10 +461,26 @@
     <Content Include="..\Cirrious.Conference.UI.WP7\ConfResources\Text\WelcomeViewModel.json">
       <Link>ConfResources\Text\WelcomeViewModel.json</Link>
     </Content>
-    <BundleResource Include="Resources\Default-568h%402x.png" />
-    <BundleResource Include="Resources\Default%402x.png" />
-    <BundleResource Include="Resources\Default.png" />
     <BundleResource Include="ConfResources\default.png" />
+    <BundleResource Include="ConfResources\Default%402x.png" />
+    <BundleResource Include="ConfResources\Default-568h%402x.png" />
+    <BundleResource Include="Images\Icons\CIAF-iOS-76x76.png" />
+    <BundleResource Include="Images\Icons\CIAF-iOS-120x120.png" />
+    <BundleResource Include="Images\CIAF-iOS-AppStore-1024x1024.png" />
+    <BundleResource Include="Images\CIAF-iOS-BG-320x480.png" />
+    <BundleResource Include="Images\CIAF-iOS-BG-640x960.png" />
+    <BundleResource Include="Images\CIAF-iOS-BG-640x1136.png" />
+    <BundleResource Include="Images\CIAF-iOS-BG-768x1024.png" />
+    <BundleResource Include="Images\CIAF-iOS-BG-1024x768.png" />
+    <BundleResource Include="Images\CIAF-iOS-BG-1536x2048.png" />
+    <BundleResource Include="Images\CIAF-iOS-BG-2048x1536.png" />
+    <BundleResource Include="Images\CIAF-iOS-Splash-320x480.png" />
+    <BundleResource Include="Images\CIAF-iOS-Splash-640x960.png" />
+    <BundleResource Include="Images\CIAF-iOS-Splash-640x1136.png" />
+    <BundleResource Include="Images\CIAF-iOS-Splash-768x1024.png" />
+    <BundleResource Include="Images\CIAF-iOS-Splash-1024x768.png" />
+    <BundleResource Include="Images\CIAF-iOS-Splash-1536x2048.png" />
+    <BundleResource Include="Images\CIAF-iOS-Splash-2048x1536.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cirrious.Conference.Core\Cirrious.Conference.Core.csproj">
@@ -477,6 +492,7 @@
   <ItemGroup />
   <ItemGroup>
     <ITunesArtwork Include="Images\Icons\512_icon.png" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Views\WelcomeView.xib" />
@@ -499,7 +515,6 @@
   </Target>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\57_icon.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\114_icon.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\29_icon.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\58_icon.png" />
@@ -507,5 +522,16 @@
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default.png" />
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-568h%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-1.launchimage\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-1.launchimage\Default.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-1.launchimage\Default%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-1.launchimage\Default-568h%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\Default.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\Default%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\Default-568h%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons-1.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons-1.appiconset\57_icon.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons-1.appiconset\120_icon.png" />
   </ItemGroup>
 </Project>

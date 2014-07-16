@@ -9,7 +9,7 @@ namespace Cirrious.Conference.UI.Touch.Views
         {
             base.ViewDidLoad();
 
-            View.BackgroundColor = UIColor.Gray;
+			View.BackgroundColor = UIColor.FromRGB(117,201,239);
         }
     }
 }

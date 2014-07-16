@@ -25,26 +25,6 @@
 	<string>uk.co.chilledinafieldfestival.2014</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
-	<key>CFBundleDocumentTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeName</key>
-			<string>MKDirectionsRequest</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>com.apple.maps.directionsrequest</string>
-			</array>
-		</dict>
-	</array>
-	<key>MKDirectionsApplicationSupportedModes</key>
-	<array>
-		<string>MKDirectionsModePlane</string>
-		<string>MKDirectionsModeBike</string>
-		<string>MKDirectionsModeBus</string>
-		<string>MKDirectionsModeCar</string>
-		<string>MKDirectionsModePedestrian</string>
-		<string>MKDirectionsModeTrain</string>
-	</array>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>
@@ -55,7 +35,9 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>XSLaunchImageAssets</key>
+	<string>Resources/Images.xcassets/LaunchImage-2.launchimage</string>
 	<key>XSAppIconAssets</key>
-	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
+	<string>Resources/Images.xcassets/AppIcons-1.appiconset</string>
 </dict>
 </plist>
