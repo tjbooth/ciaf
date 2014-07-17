@@ -8,7 +8,7 @@ using Cirrious.Conference.Core.ViewModels;
 
 namespace Cirrious.Conference.UI.Droid.Views
 {
-    [Activity(Label = "SqlBits")]
+    [Activity(Label = "Chilled in a Field")]
     public class MapsView : BaseMapView<MapViewModel>
     {
         protected override void OnViewModelSet()

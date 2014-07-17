@@ -6,7 +6,7 @@ using Cirrious.MvvmCross.Droid.Views;
 
 namespace Cirrious.Conference.UI.Droid.Views
 {
-    [Activity(Label = "SqlBits")]
+    [Activity(Label = "Chilled in a Field")]
     public class HomeView : BaseTabbedView<HomeViewModel>
     {
         protected override void OnViewModelSet()
@@ -32,10 +32,10 @@ namespace Cirrious.Conference.UI.Droid.Views
             spec.SetContent(this.CreateIntentFor(ViewModel.Favorites));
             TabHost.AddTab(spec);
 
-            spec = TabHost.NewTabSpec("tweets");
-            spec.SetIndicator(this.GetText("Tweets"), Resources.GetDrawable(Resource.Drawable.Tab_Tweets));
-            spec.SetContent(this.CreateIntentFor(ViewModel.Twitter));
-            TabHost.AddTab(spec);
+//            spec = TabHost.NewTabSpec("tweets");
+//            spec.SetIndicator(this.GetText("Tweets"), Resources.GetDrawable(Resource.Drawable.Tab_Tweets));
+//            spec.SetContent(this.CreateIntentFor(ViewModel.Twitter));
+//            TabHost.AddTab(spec);
         }
     }
 }
