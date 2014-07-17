@@ -12,5 +12,6 @@ namespace Cirrious.Conference.Core.Models.Raw
         public string Type { get; set; }
         public string Level { get; set; }
         public string Where { get; set; }
+        public DateTime Until { get; set; }
     }
 }

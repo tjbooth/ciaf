@@ -1,8 +1,8 @@
 ﻿{
 "AppTitle":"Chilled in a Field",
-"SmallDetailsFormat":"{0} at the {2} on {3:ddd HH:mm}",
+"SmallDetailsFormat":"{0} at the {2} on {3:ddd HH:mm} until {4:ddd HH:mm}",
 "TypeAndLevelFormat":"{0}, Level {1}",
-"WhenAndWhereFormat":"{3:ddd HH:mm} at the {2}",
+"WhenAndWhereFormat":"{3:ddd HH:mm} at the {2} until {4:ddd HH:mm}",
 "TimeAgo.JustNow":"just now",
 "TimeAgo.SecondsAgo":"{0}s ago",
 "TimeAgo.MinutesAgo":"{0}m ago",
