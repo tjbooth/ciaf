@@ -43,7 +43,7 @@
                         <Border 
                             toolkit:TiltEffect.IsTiltEnabled="True"
                             Margin="120,12"
-                            BorderThickness="3"
+                            BorderThickness="0"
                             BorderBrush="White"
                             VerticalAlignment="Center">
                             <i:Interaction.Triggers>
