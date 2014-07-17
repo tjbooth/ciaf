@@ -17,6 +17,7 @@
     <DeployExternal>False</DeployExternal>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -27,14 +28,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
-    <AndroidLinkSkip>
-    </AndroidLinkSkip>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <BundleAssemblies>False</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
     <Optimize>True</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -66,18 +62,9 @@
       <HintPath>packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Localization.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
-    <Reference Include="Mono.Android.GoogleMaps" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\MvvmCross.PortableSupport.3.1.1\lib\MonoAndroid\System.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\MvvmCross.PortableSupport.3.1.1\lib\MonoAndroid\System.Windows.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
@@ -143,10 +130,16 @@
     <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser.Droid">
       <HintPath>..\..\Lib\Mvx\Droid\Cirrious.MvvmCross.Plugins.WebBrowser.Droid.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Serialization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="System.Net">
+      <HintPath>packages\MvvmCross.PortableSupport.3.1.1\lib\MonoAndroid\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>packages\MvvmCross.PortableSupport.3.1.1\lib\MonoAndroid\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
       <HintPath>packages\MvvmCross.PortableSupport.3.1.1\lib\MonoAndroid\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.Android.GoogleMaps" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bindings\FavoritesButtonBinding.cs" />
@@ -171,7 +164,6 @@
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Setup.cs" />
-    <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreenActivity.cs" />
     <Compile Include="Views\AboutView.cs" />
@@ -197,6 +189,7 @@
     <Compile Include="Views\Sponsors\ExhibitionView.cs" />
     <Compile Include="Views\Sponsors\SponsorsView.cs" />
     <Compile Include="ViewHelpers.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\Text\AboutViewModel.json">
@@ -264,6 +257,27 @@
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\Page_About.axml" />
     <AndroidResource Include="Resources\Layout\FirstView.axml" />
+    <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\background.png">
+      <Link>Resources\Drawable-hdpi\background.png</Link>
+    </AndroidAsset>
+    <AndroidResource Include="..\Cirrious.Conference.UI.WP7\ConfResources\splash.png">
+      <Link>Resources\Drawable\splash.png</Link>
+    </AndroidResource>
+    <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\SponsorImages\field.png">
+      <Link>Assets\ConfResources\SponsorImages\field.png</Link>
+    </AndroidAsset>
+    <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\SponsorImages\play.png">
+      <Link>Assets\ConfResources\SponsorImages\play.png</Link>
+    </AndroidAsset>
+    <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\SponsorImages\tea.png">
+      <Link>Assets\ConfResources\SponsorImages\tea.png</Link>
+    </AndroidAsset>
+    <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\SponsorImages\tree.png">
+      <Link>Assets\ConfResources\SponsorImages\tree.png</Link>
+    </AndroidAsset>
+    <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\SponsorImages\woods.png">
+      <Link>Assets\ConfResources\SponsorImages\woods.png</Link>
+    </AndroidAsset>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\SplashScreen.axml" />
@@ -463,15 +477,13 @@
     <AndroidResource Include="Resources\Layout\ListItem_Sponsor.xml" />
     <AndroidResource Include="Resources\Values\Styles.xml" />
     <AndroidResource Include="Resources\Drawable\tweetShare.png" />
-    <AndroidResource Include="Resources\Drawable-hdpi\background.png" />
     <AndroidResource Include="Resources\Drawable\list_selector.xml" />
     <AndroidResource Include="Resources\Values\MvxBindingAttributes.xml" />
     <AndroidResource Include="Resources\Values\SplashStyle.xml" />
-    <AndroidResource Include="Resources\Drawable\splash.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cirrious.Conference.Core\Cirrious.Conference.Core.csproj">
-      <Project>{1c9864aa-bb08-4afb-bff2-9ea705a69ed0}</Project>
+      <Project>{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}</Project>
       <Name>Cirrious.Conference.Core</Name>
     </ProjectReference>
   </ItemGroup>
@@ -490,4 +502,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Resources\Drawable-hdpi\" />
+  </ItemGroup>
 </Project>

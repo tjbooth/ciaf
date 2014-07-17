@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:local="http://schemas.android.com/apk/res/com.cirrious.conference.sqlbits"
+  xmlns:local="http://schemas.android.com/apk/res-auto"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
   android:background="@color/transparent">
@@ -29,7 +29,7 @@
         android:drawableLeft="@drawable/appbar_link"
         local:MvxBind="Text Address;Click WebPageCommand"
       />
-      <Button
+<!--
         style="@style/IconButton"
         android:drawableLeft="@drawable/appbar_phone"
         local:MvxBind="Text Phone;Click PhoneCommand"
@@ -38,14 +38,14 @@
         style="@style/IconButton"
         android:drawableLeft="@drawable/appbar_email"
         local:MvxBind="Text Email;Click EmailCommand"
-      />
+      />-->
     </LinearLayout>
     <com.google.android.maps.MapView
       android:id="@+id/map"
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
       android:minHeight="300dp"
-      android:apiKey="0WQJ3I3i-pDBWchEYaG0U2mW1pJPlSfaS-wFtJQ"
+      android:apiKey="AIzaSyCyiFM7eF_u0MHHohkUQd6yp61ocwrtJus"
      />
     <!--
     release is:        android:apiKey="0WQJ3I3i-pDBWchEYaG0U2mW1pJPlSfaS-wFtJQ"

@@ -154,43 +154,40 @@ namespace Cirrious.Conference.UI.Droid
 			public const int list_selector = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int monoandroidsplash = 2130837522;
+			public const int pull_to_refresh_header_background = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int pull_to_refresh_header_background = 2130837523;
+			public const int splash = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int splash = 2130837524;
+			public const int SQLBitsLogo = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int SQLBitsLogo = 2130837525;
+			public const int star_gold45 = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int star_gold45 = 2130837526;
+			public const int star_gold_selector = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int star_gold_selector = 2130837527;
+			public const int star_grey45 = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int star_grey45 = 2130837528;
+			public const int star_grey_selector = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int star_grey_selector = 2130837529;
+			public const int Tab_Favorites = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int Tab_Favorites = 2130837530;
+			public const int Tab_Sessions = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int Tab_Sessions = 2130837531;
+			public const int Tab_Tweets = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int Tab_Tweets = 2130837532;
+			public const int Tab_Welcome = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int Tab_Welcome = 2130837533;
-			
-			// aapt resource value: 0x7f02001e
-			public const int tweetShare = 2130837534;
+			public const int tweetShare = 2130837533;
 			
 			static Drawable()
 			{
@@ -205,8 +202,8 @@ namespace Cirrious.Conference.UI.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f05000c
-			public const int ContentTextView = 2131034124;
+			// aapt resource value: 0x7f05000b
+			public const int ContentTextView = 2131034123;
 			
 			// aapt resource value: 0x7f050002
 			public const int FavoriteButton = 2131034114;
@@ -214,44 +211,44 @@ namespace Cirrious.Conference.UI.Droid
 			// aapt resource value: 0x7f050000
 			public const int MvxBindingTagUnique = 2131034112;
 			
-			// aapt resource value: 0x7f05000a
-			public const int NameTextView = 2131034122;
+			// aapt resource value: 0x7f050009
+			public const int NameTextView = 2131034121;
 			
 			// aapt resource value: 0x7f050003
 			public const int PeoplePanel = 2131034115;
 			
 			// aapt resource value: 0x7f050005
-			public const int PeopleTextView = 2131034117;
+			public const int PersonImage = 2131034117;
 			
 			// aapt resource value: 0x7f050004
-			public const int PersonImage = 2131034116;
+			public const int RoomPanel = 2131034116;
 			
 			// aapt resource value: 0x7f050006
-			public const int RoomPanel = 2131034118;
+			public const int RoomTextView = 2131034118;
+			
+			// aapt resource value: 0x7f05000d
+			public const int SessionList = 2131034125;
 			
 			// aapt resource value: 0x7f050007
-			public const int RoomTextView = 2131034119;
-			
-			// aapt resource value: 0x7f05000e
-			public const int SessionList = 2131034126;
-			
-			// aapt resource value: 0x7f050008
-			public const int SponsorImageView = 2131034120;
+			public const int SponsorImageView = 2131034119;
 			
 			// aapt resource value: 0x7f05000f
 			public const int SponsorList = 2131034127;
 			
-			// aapt resource value: 0x7f05000b
-			public const int TimeTextView = 2131034123;
+			// aapt resource value: 0x7f05000a
+			public const int TimeTextView = 2131034122;
 			
 			// aapt resource value: 0x7f050001
 			public const int TitleTextView = 2131034113;
 			
-			// aapt resource value: 0x7f050009
-			public const int TwitterImageView = 2131034121;
+			// aapt resource value: 0x7f050008
+			public const int TwitterImageView = 2131034120;
 			
-			// aapt resource value: 0x7f05000d
-			public const int map = 2131034125;
+			// aapt resource value: 0x7f05000c
+			public const int map = 2131034124;
+			
+			// aapt resource value: 0x7f05000e
+			public const int picture = 2131034126;
 			
 			// aapt resource value: 0x7f050012
 			public const int pull_to_refresh_image = 2131034130;
@@ -390,9 +387,6 @@ namespace Cirrious.Conference.UI.Droid
 			
 			// aapt resource value: 0x7f060001
 			public const int IconButton = 2131099649;
-			
-			// aapt resource value: 0x7f060004
-			public const int Mono_Android_Theme_Splash = 2131099652;
 			
 			// aapt resource value: 0x7f060000
 			public const int Theme_Splash = 2131099648;
