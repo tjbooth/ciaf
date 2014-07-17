@@ -42,29 +42,37 @@
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,4">
             <TextBlock x:Name="ApplicationTitle" Text="{Binding SharedTextSource, ConverterParameter=AppTitle, Converter={StaticResource Language}, FallbackValue=AppTitle}" Style="{StaticResource PhoneTextNormalStyle}"/>
         </StackPanel>
+        <phone:Panorama>
+            <phone:PanoramaItem>
 
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,12">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
+                <!--ContentPanel - place additional content here-->
+                <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,12">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
 
-            <StackPanel
+                    <StackPanel
 				Grid.Row="0">
-                <TextBlock 
+                        <TextBlock 
 					Text="{Binding Name, FallbackValue=NameHere}"  Margin="0"
 					Style="{StaticResource PhoneTextExtraLargeStyle}"/>
-                <Controls:IconWithTextMenuItem
+                        <Controls:IconWithTextMenuItem
 					Margin="0,24,0,0"
 					Command="{Binding WebPageCommand}"
 					Text="{Binding LocationWebPage, FallbackValue=LocationWebPage}"
 					Source="/ConfResources/Images/appbar.link.png" FontSize="10"
                         />
 
-            </StackPanel>
-            <maps:Map x:Name="Map"  HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Height="592" Width="456"/>
-        </Grid>
+                    </StackPanel>
+                    <maps:Map x:Name="Map"  HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Height="592" Width="456"/>
+                </Grid>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem>
+                <Image x:Name="LogoImage" Source="/ConfResources/siteMap.png" Opacity="1"></Image>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+
     </Grid>
 
 </Views:BaseMapView>
