@@ -5,7 +5,7 @@ using Cirrious.MvvmCross.Droid.Views;
 
 namespace Cirrious.Conference.UI.Droid
 {
-    [Activity(Label = "SqlBits", MainLauncher = true, NoHistory = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Chilled in a Field", MainLauncher = true, NoHistory = true, Icon = "@drawable/icon")]
     public class SplashScreenActivity
         : MvxSplashScreenActivity
     {
