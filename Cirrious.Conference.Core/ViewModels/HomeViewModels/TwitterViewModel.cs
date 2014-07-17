@@ -121,11 +121,11 @@ namespace Cirrious.Conference.Core.ViewModels.HomeViewModels
             if (guessTwitterNameEnds > 0)
             {
                 var guessTwitterName = tweet.Author.Substring(0, guessTwitterNameEnds);
-                ExceptionSafeShare("@" + guessTwitterName + " #sqlbitsX ");
+				ExceptionSafeShare("@" + guessTwitterName + " " + Constants.TwitterSearch + " ");
             }
             else
             {
-                ExceptionSafeShare("@" + tweet.Author + " #sqlbitsX ");
+                ExceptionSafeShare("@" + tweet.Author + " " + Constants.TwitterSearch + " ");
             }
 		}
     }

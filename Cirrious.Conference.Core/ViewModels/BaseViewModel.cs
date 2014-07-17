@@ -76,7 +76,7 @@ namespace Cirrious.Conference.Core.ViewModels
 		
 		public void DoShareGeneral()
 		{
-            var toShare = string.Format("#SQLBitsX");
+			var toShare = Constants.TwitterSearch;
 		    ExceptionSafeShare(toShare);
 		}
 

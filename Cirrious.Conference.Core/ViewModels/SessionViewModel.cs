@@ -54,7 +54,7 @@ namespace Cirrious.Conference.Core.ViewModels
                 return;
 
             var service = Mvx.Resolve<IMvxShareTask>();
-            var toShare = string.Format("#CIAF2014: {0} - {1}", Session.Session.SpeakerKey, Session.Session.Title);
+            var toShare = string.Format("{0}: {1}", Constants.TwitterSearch, Session.Session.SpeakerKey);
             if (toShare.Length > 140)
                 toShare = toShare.Substring(0, 135).Trim() + "...";
             service.ShareShort(toShare);

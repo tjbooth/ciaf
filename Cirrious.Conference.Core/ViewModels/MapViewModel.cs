@@ -9,7 +9,7 @@ namespace Cirrious.Conference.Core.ViewModels
 
         public string Name { get { return "Bentley Wildfowl & Motor Museum"; } }
         public string Address { get { return "Halland, East Sussex BN8 5AF"; } }
-        public string LocationWebPage { get { return "http://www.chilledinafieldfestival.co.uk/"; } }
+        public string LocationWebPage { get { return "http://www.chilledinafieldfestival.co.uk/the-location.html"; } }
 
         public string Phone { get { return "+44 (0)7795 666588"; } }
         public string Email { get { return "it@chilledinafieldfestival.co.uk"; } }
