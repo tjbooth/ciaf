@@ -261,7 +261,7 @@
       <Link>Resources\Drawable-hdpi\background.png</Link>
     </AndroidAsset>
     <AndroidResource Include="..\Cirrious.Conference.UI.WP7\ConfResources\splash.png">
-      <Link>Resources\Drawable\splash.png</Link>
+      <Link>Resources\Drawable-hdpi\splash.png</Link>
     </AndroidResource>
     <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\SponsorImages\field.png">
       <Link>Assets\ConfResources\SponsorImages\field.png</Link>

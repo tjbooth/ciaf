@@ -19,7 +19,7 @@ namespace Cirrious.Conference.UI.Droid
 
         protected override IMvxApplication CreateApp()
         {
-            return new NoSplashScreenConferenceApp();
+            return new ConferenceApp();
         }
 
         protected override void FillTargetFactories(IMvxTargetBindingFactoryRegistry registry)
