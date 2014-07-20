@@ -14,6 +14,7 @@
         local:MvxBind="AssetImagePath Item.Image,Converter=SponsorImage" />
     <TextView
         android:id="@+id/SponsorImageView"
+        style="@style/AboutPageBodyText"
         android:layout_width="fill_parent"
         android:layout_height="70dp"
         android:padding="10dp"

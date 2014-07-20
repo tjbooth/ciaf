@@ -3,8 +3,8 @@
   <color name="transparent">#00000000</color>
   <color name="black">#000000</color>
   <color name="mainText">#ffffff</color>  
-  <color name="lightgrey">#bbbbbb</color>
-  <color name="grey">#333333</color>
+  <color name="lightgrey">#ffffff</color>
+  <color name="grey">#ffffff</color>
   <color name="white">#ffffff</color>
   <color name="icongrey">#ffffff</color>
   <color name="listseparator">#BDC0C5</color>

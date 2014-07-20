@@ -163,7 +163,6 @@
     <Compile Include="Controls\PullToRefresh\RefreshingState.cs" />
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
-    <Compile Include="Setup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreenActivity.cs" />
     <Compile Include="Views\AboutView.cs" />
@@ -190,6 +189,7 @@
     <Compile Include="Views\Sponsors\SponsorsView.cs" />
     <Compile Include="ViewHelpers.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Setup.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="..\Cirrious.Conference.UI.WP7\ConfResources\Text\AboutViewModel.json">
