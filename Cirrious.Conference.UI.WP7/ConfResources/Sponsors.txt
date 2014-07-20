@@ -1,5 +1,5 @@
 ﻿[
-{"Name":"Band du Jour","URL":"http://www.banddejour.com/","Image":"bdj.png","Level":"Premium","Description":"Bringing their energetic style to perform anthems from the likes of Kings of Leon, Killers, Kasabian and many other bands that don't all begin with a K. Bring your dancing shoes, your singalong voice and get ready to party!"},
+{"Name":"Band de Jour","URL":"http://www.banddejour.com/","Image":"bdj.png","Level":"Premium","Description":"Bringing their energetic style to perform anthems from the likes of Kings of Leon, Killers, Kasabian and many other bands that don't all begin with a K. Bring your dancing shoes, your singalong voice and get ready to party!"},
 {"Name":"Burnsright","URL":"https://www.facebook.com/burnsrightband","Image":"burnsright.png","Level":"Premium","Description":"Get your groove on with this strong folksy blues-influenced group.  Try as you might you're going to be dancing along to their great grooves."},
 {"Name":"CIAF Choir","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"ciaf2014.png","Level":"Premium","Description":"Come listen to our own in house singers"},
 {"Name":"Custard","URL":"https://soundcloud.com/thecustard","Image":"custard.png","Level":"Premium","Description":"Some Trance, Progressive Trance, Uplifting Trance and Uplifting House for your delectation. Classic sounds to help you rave the night away."},
