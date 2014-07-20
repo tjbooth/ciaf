@@ -126,10 +126,10 @@ namespace Cirrious.Conference.Core.Models
             var file = Mvx.Resolve<IMvxResourceLoader>().GetTextResource("ConfResources/Sessions.txt");
             var jsonConvert = Mvx.Resolve<IMvxJsonConverter>();
             var items = jsonConvert.DeserializeObject<List<Session>>(file);
-            foreach (var item in items)
-            {
-                item.Key = item.Title;
-            }
+            //foreach (var item in items)
+            //{
+            //    item.Key = item.Key;
+            //}
             Sessions = items.Select(x => new SessionWithFavoriteFlag()
                                                   {
                                                       Session = x,
