@@ -21,7 +21,7 @@ namespace Cirrious.Conference.Core.ViewModels.SessionLists
 
             var grouped = Service.Sessions
                 .Values
-                .Where(slot => slot.Session.When.Day == _dayOfMonth)
+                .Where(slot => slot.Session.Day == _dayOfMonth)
                 .GroupBy(slot => slot.Session.When)
                 .OrderBy(slot => slot.Key)
                 .Select(slot => new SessionGroup(
