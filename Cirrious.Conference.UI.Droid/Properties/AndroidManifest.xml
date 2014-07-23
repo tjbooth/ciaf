@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="com.cirrious.conference.sqlbits">
-	<application android:label="Chilled in a Field"></application>
-	<uses-sdk android:minSdkVersion="4" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="uk.co.chilledinafieldfestival.x2014" android:versionName="1.1" android:versionCode="2">
+	<application android:label="Chilled in a Field" android:icon="@drawable/icon"></application>
+	<uses-sdk />
 	<uses-permission android:name="android.permission.INTERNET" />
 </manifest>
