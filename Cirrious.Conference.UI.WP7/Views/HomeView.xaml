@@ -58,9 +58,16 @@
                         <Controls:IconWithTextMenuItem
                             Margin="0,24,0,0"
                             Command="{Binding ShowMapCommand}"
-                            Text="{Binding TextSource,Converter={StaticResource Language},ConverterParameter=Map,FallbackValue=Map}"
+                            Text="{Binding TextSource,Converter={StaticResource Language},ConverterParameter=Map,FallbackValue=Location}"
                             Source="/ConfResources/Images/appbar.bus.png"
                         />
+                        <Controls:IconWithTextMenuItem
+                        	Margin="0,24,0,0"
+                        	Command="{Binding ShowSiteMapCommand}"
+                        	Text="{Binding TextSource, ConverterParameter=SiteMap, Converter={StaticResource Language}, FallbackValue=SiteMap}"
+                        	Source="/ConfResources/Images/appbar.map.png"
+                        />
+
                         <Controls:IconWithTextMenuItem
                             Margin="0,24,0,0"
                             Command="{Binding ShowAboutCommand}"

@@ -318,6 +318,7 @@
     <Content Include="ConfResources\fav.on.png" />
     <Content Include="ConfResources\background.png" />
     <Content Include="ConfResources\fav.off.png" />
+    <Content Include="ConfResources\Images\appbar.map.png" />
     <Content Include="ConfResources\SponsorImages\bar.png" />
     <Content Include="ConfResources\SponsorImages\bdj.png" />
     <Content Include="ConfResources\SponsorImages\bufSkin.png" />
@@ -363,7 +364,6 @@
     <Content Include="ConfResources\Images\appbar.phone.png" />
     <Content Include="ConfResources\Images\appbar.twitter.bird.png" />
     <Content Include="ConfResources\Sessions.txt" />
-    <Content Include="ConfResources\siteMap.png" />
     <Content Include="ConfResources\SQLBitsLogo.png" />
     <Content Include="ConfResources\Text\SessionsViewModel.json" />
     <Content Include="ConfResources\Text\WelcomeViewModel.json" />
