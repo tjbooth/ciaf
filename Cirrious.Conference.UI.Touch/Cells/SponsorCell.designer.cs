@@ -13,9 +13,17 @@ namespace Cirrious.Conference.UI.Touch
 	{
 		[Outlet]
 		MonoTouch.UIKit.UIImageView TheImage { get; set; }
-		
+
+		[Outlet]
+		MonoTouch.UIKit.UILabel TitleLabel { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
+			if (TitleLabel != null) {
+				TitleLabel.Dispose ();
+				TitleLabel = null;
+			}
+
 			if (TheImage != null) {
 				TheImage.Dispose ();
 				TheImage = null;

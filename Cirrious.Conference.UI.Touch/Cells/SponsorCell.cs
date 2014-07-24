@@ -12,7 +12,7 @@ namespace Cirrious.Conference.UI.Touch
 	public partial class SponsorCell : MvxStandardTableViewCell
 	{
 		public static NSString Identifier = new NSString("SponsorCell");
-		public const string BindingText = "ImagePath Item.Image; SelectedCommand Command";
+		public const string BindingText = "ImagePath Item.Image; Name Item.Name; SelectedCommand Command";
 
 		public static SponsorCell LoadFromNib(NSObject owner)
 		{
@@ -44,6 +44,7 @@ namespace Cirrious.Conference.UI.Touch
 		private void Initialise()
 		{
 			ContentView.BackgroundColor = UIColor.White;
+
 			//this.BackgroundView = new UIView(Frame){ BackgroundColor = UIColor.LightGray };
 		}	
 
@@ -65,6 +66,12 @@ namespace Cirrious.Conference.UI.Touch
 			{
 				return Identifier.ToString();
 			}
+		}
+
+		public string Name
+		{
+			get { return TitleLabel.Text; }
+			set { if (TitleLabel != null) TitleLabel.Text = value; }
 		}
 
 		private string _imagePath;
