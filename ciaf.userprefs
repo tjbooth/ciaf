@@ -1,12 +1,12 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="Cirrious.Conference.UI.Touch/Info.plist" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/tom/Dev/github/tjbooth/ciaf/Cirrious.Conference.UI.Touch/Controls/FoldingTableViewController.cs" line="75" column="1" />
+      <Breakpoint file="/Users/tom/Dev/github/tjbooth/ciaf/Cirrious.Conference.UI.Touch/Cells/SponsorCell.cs" line="41" column="4" />
+      <Breakpoint file="/Users/tom/Dev/github/tjbooth/ciaf/Cirrious.Conference.UI.Touch/Cells/SponsorCell.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Cirrious.Conference.UI.Touch>
