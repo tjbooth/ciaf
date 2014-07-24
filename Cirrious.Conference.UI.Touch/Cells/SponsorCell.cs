@@ -83,7 +83,7 @@ namespace Cirrious.Conference.UI.Touch
 				if (_imagePath == value)
 					return;
 				_imagePath = value;
-				if (TheImage != null) TheImage.Image = UIImage.FromFile("ConfResources/SponsorImages/" + _imagePath);
+				if (Image2 != null) Image2.Image = UIImage.FromFile("ConfResources/SponsorImages/" + _imagePath);
 			}
 		}
 	}

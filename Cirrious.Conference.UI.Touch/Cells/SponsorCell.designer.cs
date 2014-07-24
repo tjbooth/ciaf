@@ -12,7 +12,7 @@ namespace Cirrious.Conference.UI.Touch
 	partial class SponsorCell
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIImageView TheImage { get; set; }
+		MonoTouch.UIKit.UIImageView Image2 { get; set; }
 
 		[Outlet]
 		MonoTouch.UIKit.UILabel TitleLabel { get; set; }
@@ -24,9 +24,9 @@ namespace Cirrious.Conference.UI.Touch
 				TitleLabel = null;
 			}
 
-			if (TheImage != null) {
-				TheImage.Dispose ();
-				TheImage = null;
+			if (Image2 != null) {
+				Image2.Dispose ();
+				Image2 = null;
 			}
 		}
 	}
