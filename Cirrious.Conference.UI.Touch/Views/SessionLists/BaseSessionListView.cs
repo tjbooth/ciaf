@@ -44,9 +44,10 @@ namespace Cirrious.Conference.UI.Touch.Views.SessionLists
 		                             {source, "ItemsSource GroupedList"},
 		                         });
 
-            TableView.BackgroundColor = UIColor.Black;
+			TableView.BackgroundColor = UIColor.FromRGB(117, 201, 227);
             TableView.RowHeight = 126;
             TableView.Source = source;
+
             TableView.ReloadData();
         }
 
@@ -114,6 +115,8 @@ namespace Cirrious.Conference.UI.Touch.Views.SessionLists
 
             public override string[] SectionIndexTitles(UITableView tableView)
             {
+				return new string[0];
+
                 if (_sessionGroups == null)
                     return base.SectionIndexTitles(tableView);
 

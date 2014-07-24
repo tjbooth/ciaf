@@ -29,6 +29,7 @@ IsFavorite Item.IsFavorite
 			var cell2 = Runtime.GetNSObject( views.ValueAt(0) ) as SessionCell2;
 			views = null;
 			cell2.Initialise();
+			cell2.BackgroundColor = UIColor.FromRGB(117, 201, 227);
 			return cell2;
 		}
 		

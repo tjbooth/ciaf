@@ -44,7 +44,7 @@ namespace Cirrious.Conference.UI.Touch.Views
 
         private void SetTitleAndTabBarItem(UIViewController screen, string title, string imageName)
         {
-            screen.Title = ViewModel.TextSource.GetText(title);
+			screen.Title = (title == "Events" ) ? "Events" : ViewModel.TextSource.GetText(title);
             screen.TabBarItem = new UITabBarItem(title, UIImage.FromBundle("Images/Tabs/" + imageName + ".png"),
                                                  _createdSoFarCount);
             _createdSoFarCount++;
@@ -61,7 +61,7 @@ namespace Cirrious.Conference.UI.Touch.Views
 		    var viewControllers = new UIViewController[]
                                   {
                                     CreateTabFor("Welcome", "home", ViewModel.Welcome),
-                                    CreateTabFor("Sessions", "sessions", ViewModel.Sessions),
+                                    CreateTabFor("Events", "sessions", ViewModel.Sessions),
                                     CreateTabFor("Favorites", "favorites", ViewModel.Favorites),
                                    // CreateTabFor("Tweets", "twitter", ViewModel.Twitter),
                                   };

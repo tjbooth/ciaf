@@ -1,6 +1,6 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Cirrious.Conference.UI.Touch/Info.plist">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Cirrious.Conference.UI.Touch/Info.plist" />
     </Files>

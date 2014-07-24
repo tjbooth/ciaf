@@ -8,12 +8,12 @@ using MonoTouch.ObjCRuntime;
 
 namespace Cirrious.Conference.UI.Touch
 {
-#warning Don't use this code a reference - use http://slodge.blogspot.co.uk/2013/01/uitableviewcell-using-xib-editor.html
+	#warning Don't use this code a reference - use http://slodge.blogspot.co.uk/2013/01/uitableviewcell-using-xib-editor.html
 	public partial class SponsorCell : MvxStandardTableViewCell
 	{
 		public static NSString Identifier = new NSString("SponsorCell");
 		public const string BindingText = "ImagePath Item.Image; SelectedCommand Command";
-		
+
 		public static SponsorCell LoadFromNib(NSObject owner)
 		{
 			// this bizarre loading sequence is modified from a blog post on AlexYork.net
@@ -25,12 +25,12 @@ namespace Cirrious.Conference.UI.Touch
 			cell2.Initialise();
 			return cell2;
 		}
-		
+
 		public SponsorCell(IntPtr handle)
 			: base(BindingText, handle)
 		{
 		}		
-		
+
 		public SponsorCell ()
 			: base(BindingText, MonoTouch.UIKit.UITableViewCellStyle.Default, Identifier)
 		{
@@ -40,13 +40,13 @@ namespace Cirrious.Conference.UI.Touch
 			: base(bindingText, MonoTouch.UIKit.UITableViewCellStyle.Default, Identifier)
 		{
 		}
-		
+
 		private void Initialise()
 		{
 			ContentView.BackgroundColor = UIColor.White;
 			//this.BackgroundView = new UIView(Frame){ BackgroundColor = UIColor.LightGray };
 		}	
-			
+
 		protected override void Dispose (bool disposing)
 		{
 			if (disposing)
@@ -55,7 +55,7 @@ namespace Cirrious.Conference.UI.Touch
 				// - but couldn't see how else to do this in a TableViewCell
 				ReleaseDesignerOutlets();
 			}
-			
+
 			base.Dispose (disposing);
 		} 
 
@@ -67,16 +67,16 @@ namespace Cirrious.Conference.UI.Touch
 			}
 		}
 
-	    private string _imagePath;
-        public string ImagePath
+		private string _imagePath;
+		public string ImagePath
 		{
-            get { return _imagePath; }
+			get { return _imagePath; }
 			set
 			{
-                if (_imagePath == value)
-                    return;
-			    _imagePath = value;
-                if (TheImage != null) TheImage.Image = UIImage.FromFile("ConfResources/SponsorImages/" + _imagePath);
+				if (_imagePath == value)
+					return;
+				_imagePath = value;
+				if (TheImage != null) TheImage.Image = UIImage.FromFile("ConfResources/SponsorImages/" + _imagePath);
 			}
 		}
 	}

@@ -32,7 +32,7 @@ namespace Cirrious.Conference.UI.Touch
         }		
         
         public SeparatorCell ()
-            : base(BindingText, MonoTouch.UIKit.UITableViewCellStyle.Default, Identifier)
+			: base(BindingText, MonoTouch.UIKit.UITableViewCellStyle.Default, Identifier)
         {
         }
 
@@ -43,8 +43,8 @@ namespace Cirrious.Conference.UI.Touch
         
         private void Initialise()
         {
-            ContentView.BackgroundColor = UIColor.LightGray;
-            //this.BackgroundView = new UIView(Frame){ BackgroundColor = UIColor.LightGray };
+			ContentView.BackgroundColor = UIColor.FromRGB(117, 201, 227);
+			this.BackgroundView = new UIView(Frame){ BackgroundColor = UIColor.FromRGB(117, 201, 227) };
         }	
             
         protected override void Dispose (bool disposing)

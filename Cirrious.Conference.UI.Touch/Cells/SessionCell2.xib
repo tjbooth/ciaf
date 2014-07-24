@@ -44,7 +44,7 @@
                         </state>
                     </button>
                 </subviews>
-                <color key="backgroundColor" red="0.45882352941176469" green="0.78823529411764703" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
