@@ -42,7 +42,7 @@
                     <DataTemplate>
                         <Border 
                             toolkit:TiltEffect.IsTiltEnabled="True"
-                            Margin="120,12"
+                            Margin="10,12"
                             BorderThickness="0"
                             BorderBrush="White"
                             VerticalAlignment="Center">
@@ -52,10 +52,10 @@
                                 </i:EventTrigger>
                             </i:Interaction.Triggers>
                             <Grid>
-                                <Image 
+                                <!--<Image 
                                     Source="{Binding Item.Image, Converter={StaticResource SponsorImage}}" Height="70" Width="160">
-                                </Image>
-                                <TextBlock VerticalAlignment="Center" Text="{Binding Item.Name,FallbackValue=PageTitle}" Margin="0,100,0,0"/>
+                                </Image>-->
+                                <TextBlock VerticalAlignment="Center" Text="{Binding Item.Name,FallbackValue=PageTitle}" Margin="0,10,0,0"/>
                             </Grid>
                         </Border>
                     </DataTemplate>
