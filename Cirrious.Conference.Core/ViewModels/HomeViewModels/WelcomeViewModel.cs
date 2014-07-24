@@ -41,5 +41,16 @@ namespace Cirrious.Conference.Core.ViewModels.HomeViewModels
         {
             get { return new MvxCommand(() => ShowViewModel<AboutViewModel>()); }
         }
+
+		public ICommand ShowSiteMapCommand 
+		{
+			get { return new MvxCommand(() => ShowWebPage("http://www.chilledinafieldfestival.co.uk/site-map.html"));}
+		}
+
+		public ICommand ShowVenuesCommand 
+		{
+			get { return new MvxCommand(() => ShowWebPage("http://www.chilledinafieldfestival.co.uk/site-map.html"));}
+		}
+
     }
 }

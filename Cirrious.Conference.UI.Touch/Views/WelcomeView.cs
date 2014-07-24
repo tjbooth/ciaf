@@ -34,23 +34,26 @@ namespace Cirrious.Conference.UI.Touch
             Button1.SetImage(UIImage.FromFile("ConfResources/Images/appbar.people.png"), UIControlState.Normal);
             Button2.SetImage(UIImage.FromFile("ConfResources/Images/appbar.city.png"), UIControlState.Normal);
             Button3.SetImage(UIImage.FromFile("ConfResources/Images/appbar.bus.png"), UIControlState.Normal);
-            Button4.SetImage(UIImage.FromFile("ConfResources/Images/appbar.questionmark.rest.png"), UIControlState.Normal);
+			Button4.SetImage(UIImage.FromFile("ConfResources/Images/appbar.bus.png"), UIControlState.Normal);
+			Button5.SetImage(UIImage.FromFile("ConfResources/Images/appbar.questionmark.rest.png"), UIControlState.Normal);
 
             this.AddLangBindings(new Dictionary<object, string>()
                 {
                     { MainLabel, "Text AboutSQLBits" },				
                     { Button1, "Title Sponsors" },				
                     { Button2, "Title Exhibitors" },				
-                    { Button3, "Title Map" },				
-                    { Button4, "Title About" },				
+					{ Button3, "Title Map" },				
+					{ Button4, "Title SiteMap" },				
+                    { Button5, "Title About" },				
                 });
 
             this.AddBindings(new Dictionary<object, string>()
                 {
                     { Button1, "TouchUpInside ShowSponsorsCommand" },				
                     { Button2, "TouchUpInside ShowExhibitionCommand" },				
-                    { Button3, "TouchUpInside ShowMapCommand" },				
-                    { Button4, "TouchUpInside ShowAboutCommand" },				
+					{ Button3, "TouchUpInside ShowMapCommand" },				
+					{ Button4, "TouchUpInside ShowSiteMapCommand" },				
+                    { Button5, "TouchUpInside ShowAboutCommand" },				
                 });
 
            // NavigationItem.SetRightBarButtonItem(new UIBarButtonItem("Tweet", UIBarButtonItemStyle.Bordered, (sender, e) => ViewModel.DoShareGeneral()), false);
