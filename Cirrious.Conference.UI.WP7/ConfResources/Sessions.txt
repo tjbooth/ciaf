@@ -19,7 +19,7 @@
 	"Title": "Band de Jour",
 	"Description": "Bring your dancing shoes and your sing-along voice and get ready to party to the best indie rock hits of the last two decades performed with energetic style and excellence.",
 	"SpeakerKey": "Band de Jour",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -43,7 +43,7 @@
 	"Title": "Burnsright",
 	"Description": "A three piece Masterpiece bringing you the funky urban grooves soaked in the mental universe.",
 	"SpeakerKey": "Burnsright",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -55,7 +55,7 @@
 	"Title": "Ceilidh with Tribe of Tinkers",
 	"Description": "A traditional celidh with our feet stompin' hay chompin' folk flingin' partner swingin' 8-piece who will tire you out and have you screaming for more.",
 	"SpeakerKey": "Ceilidh with Tribe of Tinkers",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -79,7 +79,7 @@
 	"Title": "Choir in a Field ",
 	"Description": "After meeting for the first time just two hours before their performance what wonderful sounds will be made by our own Chilled in a Field Festival pop-up choir?",
 	"SpeakerKey": "Choir in a Field",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -175,7 +175,7 @@
 	"Title": "DanDoodle",
 	"Description": "Playing a combo of 20s, 30s + 40s swing sounds and contemporary EDM. He's been kicking off dance floors for quite some time now (he's old enough to know better!) Come and have a boogie to some banging vintage beats",
 	"SpeakerKey": "DanDoodle",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -355,7 +355,7 @@
 	"Title": "Grizzly & The Grasshoppers",
 	"Description": "Powerful, heartfelt, gritty roots and blues performed with heart and not a small amount of hair.",
 	"SpeakerKey": "Grizzly & The Grasshoppers",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -379,7 +379,7 @@
 	"Title": "Ibiza Choonz",
 	"Description": "Says what is is on the tin! Get ready for the return of Balearic Funky House beats, a chilled vibe and electro-house anthems.",
 	"SpeakerKey": "Ibiza Choonz ",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -403,7 +403,7 @@
 	"Title": "Indigo Stars",
 	"Description": "With us from the very start, our favourite soulful songstrel and her band of accoustic buccaneers will sooth your soul and melt your heart.",
 	"SpeakerKey": "Indigo Stars",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Woods"
 },
@@ -415,7 +415,7 @@
 	"Title": "Indigo Stars ",
 	"Description": "With us from the very start, our favourite soulful songstrel and her band of accoustic buccaneers will sooth your soul and melt your heart.",
 	"SpeakerKey": "Indigo Stars",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -607,7 +607,7 @@
 	"Title": "Poppy Janella",
 	"Description": "After being inspired to write, sing and perform by her experiences around the camp fire at Chilled 2011, we are very proud to present this talented young singer-songwriter's festival debut.",
 	"SpeakerKey": "Poppy Janella",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -631,7 +631,7 @@
 	"Title": "Robyn Keen",
 	"Description": "Back for 2014, singer-songwriter Robyn performs with a smile in her soul and beauty in her heart.",
 	"SpeakerKey": "Robyn Keen",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Woods"
 },
@@ -667,7 +667,7 @@
 	"Title": "Saturday Sun",
 	"Description": "Spine-tingling sultry summer sumptuousness soars and settles like liquid sunshine.",
 	"SpeakerKey": "Saturday Sun",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -775,7 +775,7 @@
 	"Title": "Tailor Birds",
 	"Description": "Chill the heck out to their beautiful blend of electronic, experimental and classical sounds, instrumental tracks and beautiful ballads.",
 	"SpeakerKey": "Tailor Birds",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -811,7 +811,7 @@
 	"Title": "The Buffalo Skinners",
 	"Description": "Pure folk-punk-blues-riot.  Get your dancing trousers on and prepare to be exhausted.",
 	"SpeakerKey": "The Buffalo Skinners",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -823,7 +823,7 @@
 	"Title": "The Cardigan Pimps",
 	"Description": "All the best bits of the mid-'90s performed by the most talented and sexy bunch you've ever had the pleasure to get six underground to.",
 	"SpeakerKey": "The Cardigan Pimps",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
@@ -883,7 +883,7 @@
 	"Title": "The Sundowner Sessions with",
 	"Description": "She Drew The Gun, Burnsright, Robyn Keen",
 	"SpeakerKey": "The Sundowner Sessions with",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Woods"
 },
@@ -895,7 +895,7 @@
 	"Title": "The Sundowner Sessions with ",
 	"Description": "Mark Bowler, Angel Kelly, Poppy Janella",
 	"SpeakerKey": "The Sundowner Sessions with",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Woods"
 },
@@ -919,7 +919,7 @@
 	"Title": "Tribe of Tinkers",
 	"Description": "This feet stompin' hay chompin' folk flingin' partner swingin' 8-piece will tire you out and have you screaming for more.",
 	"SpeakerKey": "Tribe of Tinkers",
-	"Type": "Acoustic",
+	"Type": "Live",
 	"Level": "0",
 	"Where": "Main Stage"
 },
