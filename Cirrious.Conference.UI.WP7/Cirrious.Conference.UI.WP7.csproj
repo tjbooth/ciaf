@@ -192,6 +192,9 @@
     <Compile Include="Views\AboutView.xaml.cs">
       <DependentUpon>AboutView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\SiteMapView.xaml.cs">
+      <DependentUpon>SiteMapView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SponsorsView.xaml.cs">
       <DependentUpon>SponsorsView.xaml</DependentUpon>
     </Compile>
@@ -248,6 +251,10 @@
     <Page Include="Views\AboutView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SiteMapView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -319,6 +326,7 @@
     <Content Include="ConfResources\background.png" />
     <Content Include="ConfResources\fav.off.png" />
     <Content Include="ConfResources\Images\appbar.map.png" />
+    <Content Include="ConfResources\siteMap.jpg" />
     <Content Include="ConfResources\SponsorImages\bar.png" />
     <Content Include="ConfResources\SponsorImages\bdj.png" />
     <Content Include="ConfResources\SponsorImages\bufSkin.png" />

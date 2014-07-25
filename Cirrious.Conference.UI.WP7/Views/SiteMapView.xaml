@@ -1,4 +1,5 @@
-﻿<Views:BaseMapView
+﻿<Views:BaseSiteMapView
+    x:Class="Cirrious.Conference.UI.WP7.Views.SiteMapView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -9,9 +10,6 @@
     xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
     xmlns:Commands="clr-namespace:Cirrious.MvvmCross.WindowsPhone.Commands;assembly=Cirrious.MvvmCross.WindowsPhone"
-    xmlns:my="clr-namespace:Microsoft.Phone.Maps;assembly=Microsoft.Phone.Maps"
-    xmlns:Controls="clr-namespace:Cirrious.Conference.UI.WP7.Controls" xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
-    x:Class="Cirrious.Conference.UI.WP7.Views.MapView"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -43,36 +41,26 @@
             <TextBlock x:Name="ApplicationTitle" Text="{Binding SharedTextSource, ConverterParameter=AppTitle, Converter={StaticResource Language}, FallbackValue=AppTitle}" Style="{StaticResource PhoneTextNormalStyle}"/>
         </StackPanel>
         <phone:Panorama>
-            <phone:PanoramaItem>
-
+            <phone:PanoramaItem Width="470">
                 <!--ContentPanel - place additional content here-->
-                <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,12">
+                <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,0,12" HorizontalAlignment="Left" Width="724">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <StackPanel
-				Grid.Row="0">
+                    <StackPanel Margin="10,0">
                         <TextBlock 
-					Text="{Binding Name, FallbackValue=NameHere}"  Margin="0"
+					Text="{Binding Title, FallbackValue=NameHere}"  Margin="0"
 					Style="{StaticResource PhoneTextExtraLargeStyle}"/>
-                        <Controls:IconWithTextMenuItem
-					Margin="0,24,0,0"
-					Command="{Binding WebPageCommand}"
-					Text="{Binding LocationWebPage, FallbackValue=LocationWebPage}"
-					Source="/ConfResources/Images/appbar.link.png" FontSize="10"
-                        />
-
+                        <ViewportControl Bounds="0,0,1200,700">
+                            <Image Source="/ConfResources/siteMap.jpg" />
+                        </ViewportControl>
                     </StackPanel>
-                    <maps:Map x:Name="Map"  HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Height="592" Width="456"/>
                 </Grid>
             </phone:PanoramaItem>
-            <!--<phone:PanoramaItem>
-                <Image x:Name="LogoImage" Source="/ConfResources/siteMap.png" Opacity="1"></Image>
-            </phone:PanoramaItem>-->
         </phone:Panorama>
 
     </Grid>
 
-</Views:BaseMapView>
+</Views:BaseSiteMapView>

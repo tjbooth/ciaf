@@ -63,7 +63,7 @@
                         />
                         <Controls:IconWithTextMenuItem
                         	Margin="0,24,0,0"
-                        	Command="{Binding ShowSiteMapCommand}"
+                        	Command="{Binding ShowSiteMapViewCommand}"
                         	Text="{Binding TextSource, ConverterParameter=SiteMap, Converter={StaticResource Language}, FallbackValue=SiteMap}"
                         	Source="/ConfResources/Images/appbar.map.png"
                         />
