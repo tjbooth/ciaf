@@ -7,7 +7,6 @@
 {"Name":"Deviant","URL":"https://soundcloud.com/deviant-inc","Image":"deviant.png","Level":"Premium","Description":"A fine selection of Breakbeat, Big Bass Party Breakz, and some Drum'n'Bass to get you up and moving!"},
 {"Name":"Dialog","URL":"https://soundcloud.com/dialog","Image":"dialog.png","Level":"Premium","Description":"Rousing you from your slumber with some tasty floaty breakfast beats."},
 {"Name":"DJ Competition Winner","URL":"http://www.headspacestores.com/home","Image":"head.png","Level":"Premium","Description":"Head Space competion winner"},
-{"Name":"Family Breakfast DJs","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"camp.png","Level":"Premium","Description":"Eat breakfast whilst tucking into your full English"},
 {"Name":"Fiend Reflex","URL":"https://soundcloud.com/fiendreflex","Image":"fiends.png","Level":"Premium","Description":"This is your man if you like a mixture, Drum'n'Bass, Breakbeat, Dubstep, Electro, House and more!"},
 {"Name":"Grizzly & The Grasshoppers","URL":"http://www.grizzlyandthegrasshoppers.com/new","Image":"gandg.png","Level":"Premium","Description":"This rootsy, bluesy and very hairy band of music makers and troubadours will be in residence."},
 {"Name":"Ibiza Choonz","URL":"http://www.mixcloud.com/IbizaChoons/","Image":"ic.png","Level":"Premium","Description":"Says what is is on the tin! Get ready for the return of Balearic Funky House beats, a chilled vibe and electro-house anthems."},
