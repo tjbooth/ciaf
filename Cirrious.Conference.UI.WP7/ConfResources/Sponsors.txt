@@ -31,49 +31,49 @@
 {"Name":"Wheel of Genres","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"wog.png","Level":"Premium","Description":"The Wheel of Genres will make a welcome return."},
 	{	
 		"Name":"The Bar",
-		"Url":"http://www.chilledinafieldfestival.co.uk/the-bar.html",
+		"Url":"http://www.chilledinafieldfestival.co.uk/the-venues.html",
 		"Image":"bar.png",
 		"Level":"Exhibitor",
 		"Description":"Fine Local Ales, Cider, Wine, Cocktails………… Is it a bar or a mini beer festival?"
 	},
 	{		
 		"Name":"Main Stage",
-		"Url":"http://www.chilledinafieldfestival.co.uk/music.html",
+		"Url":"http://www.chilledinafieldfestival.co.uk/the-venues.html",
 		"Image":"stage.png",
 		"Level":"Exhibitor",
 		"Description":"We're proud to introduce the Chilled in a Field Festival Stage - taking music out from under cover and into the field where it belongs!"	
 	},
 	{		
 		"Name":"The Woods",
-		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Url":"http://www.chilledinafieldfestival.co.uk/the-venues.html",
 		"Image":"woods.png",
 		"Level":"Exhibitor",
 		"Description":"Woods area"	
 	},
 	{	
 		"Name":"The Activitree",
-		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Url":"http://www.chilledinafieldfestival.co.uk/the-venues.html",
 		"Image":"tree.png",
 		"Level":"Exhibitor",
 		"Description":""
 	},
 	{		
 		"Name":"Tea Tent",
-		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Url":"http://www.chilledinafieldfestival.co.uk/the-venues.html",
 		"Image":"tea.png",
 		"Level":"Exhibitor",
 		"Description":""	
 	},
 	{		
 		"Name":"Play Tent",
-		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Url":"http://www.chilledinafieldfestival.co.uk/the-venues.html",
 		"Image":"play.png",
 		"Level":"Exhibitor",
 		"Description":""	
 	},
 	{	
 		"Name":"The Field",
-		"Url":"http://www.chilledinafieldfestival.co.uk/",
+		"Url":"http://www.chilledinafieldfestival.co.uk/the-venues.html",
 		"Image":"field.png",
 		"Level":"Exhibitor",
 		"Description":""	
