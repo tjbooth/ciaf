@@ -29,6 +29,8 @@
 {"Name":"U-4-I-C","URL":"http://www.global-trance.co.uk/fr_index.html?/U-4-IC.html","Image":"u4ic.png","Level":"Premium","Description":"The legend that is U4IC makes his Chilled debut, we are so lucky! O and if you've not worked it out yet U-4-IC is a phonetic pronunciation of 'Euphoric'."},
 {"Name":"Voodoo","URL":"https://soundcloud.com/voodootronix","Image":"voodoo.png","Level":"Premium","Description":"Roll up, roll up! He's here and ready to get you dancing with some seriously euphoric drum'n'bass!"},
 {"Name":"Wheel of Genres","URL":"http://www.chilledinafieldfestival.co.uk/","Image":"wog.png","Level":"Premium","Description":"The Wheel of Genres will make a welcome return."},
+{"Name":"Giles-Y","URL":"https://soundcloud.com/giles-y/","Image":"wog.png","Level":"Premium","Description":"The Wheel of Genres will make a welcome return."},
+{"Name":"The One Trick Pony Sound System","URL":"https://www.facebook.com/OneTrickPonySoundSystem","Image":"wog.png","Level":"Premium","Description":"The Wheel of Genres will make a welcome return."},
 	{	
 		"Name":"The Bar",
 		"Url":"http://www.chilledinafieldfestival.co.uk/the-venues.html",
