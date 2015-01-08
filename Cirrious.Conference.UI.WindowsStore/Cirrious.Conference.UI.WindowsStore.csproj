@@ -167,7 +167,7 @@
       <HintPath>..\packages\MvvmCross.HotTuna.Plugin.JsonLocalisation.3.1.1\lib\netcore45\Cirrious.MvvmCross.Plugins.JsonLocalisation.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Plugins.Messenger">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Scorchio Limited\Ninja Coder for MvvmCross\MvvmCross\Assemblies\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Messenger.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Plugins.ResourceLoader">
       <HintPath>..\packages\MvvmCross.HotTuna.Plugin.ResourceLoader.3.1.1\lib\netcore45\Cirrious.MvvmCross.Plugins.ResourceLoader.dll</HintPath>
