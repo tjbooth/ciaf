@@ -224,10 +224,10 @@ namespace Cirrious.Conference.Core.Models
 				{
 
 					Day = 0,
-					Description = sessionData.description,
+					Description = (sessionData.description.Contains("Boysie")) ? "Nois Bollox" : sessionData.description ,
 					Key = sessionData._id,
-					Title = (sessionData.description.Contains("Boysie")) ? "Bollox" : sessionData.description,
-					SpeakerKey = (sessionData.contributor.Contains("Boysie")) ? "Bollox" : sessionData.contributor,
+					Title = (sessionData.description.Contains("Boysie")) ? "Nois Bollox" : sessionData.description,
+					SpeakerKey = (sessionData.contributor.Contains("Boysie")) ? "Nois Bollox" : sessionData.contributor,
 					//When = sessionData.start
 						
 
