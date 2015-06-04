@@ -10,6 +10,11 @@ using Cirrious.CrossCore.Platform;
 using Cirrious.MvvmCross.Plugins.File;
 using Cirrious.MvvmCross.Plugins.Messenger;
 
+using Newtonsoft.Json;
+using RestSharp.Portable;
+using System.Net.Http;
+using System.Threading;
+
 namespace Cirrious.Conference.Core.Models
 {
     public class ConferenceService 
@@ -79,7 +84,7 @@ namespace Cirrious.Conference.Core.Models
 
         private void Load()
         {
-            LoadSessions();
+            LoadSessions2();
             LoadFavorites();
             LoadSponsors();
 
@@ -143,6 +148,45 @@ namespace Cirrious.Conference.Core.Models
             }
         }
 
+		private async void LoadSessions2()
+		{
+			string contents;
+
+			var files = Mvx.Resolve<IMvxFileStore>();
+			files.TryReadTextFile("RESTDATA.json", out contents);
+
+			var loaded = false;
+
+			using (var client = new RestClient (new Uri (@"https://ciafadmin.herokuapp.com/api/"))) {
+				var request = new RestRequest ("schedule", HttpMethod.Get);
+				var result = await client.Execute<SessionData[]> (request);
+		
+				// do something with the response.StatusCode and response.Stream
+				if (result.StatusCode == System.Net.HttpStatusCode.OK) {
+					//files.WriteFile ("RESTDATA.json", response..);
+
+					this.ParseSponsors (result.Data);
+
+					this.ParseExhibitors (result.Data);
+
+					this.ParseSessions (result.Data);
+
+					loaded = true;
+				}
+			}
+
+			while (!loaded) {
+				
+			}
+
+			//PocketConferenceModel conferenceModel;
+			//if (!TryLoadSessionsFromStorage(out conferenceModel))
+			//{
+			//    conferenceModel = LoadSessionsFromResources();
+			//}
+			//LoadSessionsFromPocketConferenceModel(conferenceModel);
+		}
+
         private void SessionWithFavoriteFlagOnPropertyChanged(object sender, PropertyChangedEventArgs propertyChangedEventArgs)
         {
             if (propertyChangedEventArgs.PropertyName != "IsFavorite")
@@ -169,5 +213,85 @@ namespace Cirrious.Conference.Core.Models
 
             FireFavoriteSessionsChanged();
         }
+
+		private void ParseSessions(SessionData[] data)
+		{
+			Sessions = new Dictionary<string, SessionWithFavoriteFlag>();
+			var i = 0;
+			foreach (var sessionData in data)
+			{
+				var session = new Session
+				{
+
+					Day = 0,
+					Description = sessionData.description,
+					Key = sessionData._id,
+					Title = sessionData.description,
+					SpeakerKey = sessionData.contributor,
+					//When = sessionData.start
+						
+
+				//	Id = sessionData._id,
+				//	RoomName = sessionData.location,
+				//	Slot = new Slot(),
+				//	SlotId = String.Empty,
+				//	SpeakerTwitterName = String.Empty,
+				//	SpeakerWebsiteURL = String.Empty,
+				//	Speaker = sessionData.contributor,
+				//	Synopsis = String.Empty,
+				//	Title = sessionData.description,
+				//	TrackName = String.Empty
+				};
+
+				Sessions.Add(session.SpeakerKey, new SessionWithFavoriteFlag { Session = session});
+				i++;
+			}
+		}
+
+		private void ParseExhibitors(SessionData[] data)
+		{
+			Exhibitors = new Dictionary<string, Sponsor>();
+			var i = 0;
+			foreach (var location in data.Select(sessionData => sessionData.location).Where(s => !string.IsNullOrEmpty(s)).Distinct())
+			{
+				if (!Exhibitors.ContainsKey(location))
+				{
+					Exhibitors.Add(location,
+						new Sponsor
+						{
+							Description = location,
+							//DisplayOrder = i,
+							Level = "Premium",
+							Name = location,
+							Image = "",
+							Url = ""
+						});
+				}
+				i++;
+			}
+		}
+
+		private void ParseSponsors(SessionData[] data)
+		{
+			Sponsors = new Dictionary<string, Sponsor>();
+			var i = 0;
+			foreach (var sessionData in data.Where(sessionData => !string.IsNullOrEmpty(sessionData.name)))
+			{
+				if (!Sponsors.ContainsKey(sessionData.name))
+				{
+					Sponsors.Add(sessionData.name,
+						new Sponsor
+						{
+							Description = sessionData.description,
+							//DisplayOrder = i,
+							Level = "Premium",
+							Name = sessionData.name,
+							Image = "",
+							Url = ""
+						});
+				}
+				i++;
+			}
+		}
     }
 }

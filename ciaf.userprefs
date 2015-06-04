@@ -1,10 +1,15 @@
-﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.1" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties GitUserInfo="UsingGIT" StartupItem="Cirrious.Conference.UI.Touch/Cirrious.Conference.UI.Touch.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cirrious.Conference.Core/packages.config">
     <Files>
-      <File FileName="Cirrious.Conference.Core/Cirrious.Conference.Core.csproj" Line="1" Column="1" />
-      <File FileName="../../../../../Library/Frameworks/Mono.framework/Versions/3.10.0/lib/mono/4.5/Microsoft.Common.targets" Line="1" Column="1" />
-      <File FileName="Cirrious.Conference.Core/ApplicationObjects/ErrorApplicationObject.cs" Line="1" Column="1" />
+      <File FileName="Cirrious.Conference.Core/Interfaces/IConferenceService.cs" Line="1" Column="1" />
+      <File FileName="Cirrious.Conference.Core/Models/ConferenceService.cs" Line="83" Column="1" />
+      <File FileName="Cirrious.Conference.Core/Models/SessionData.cs" Line="1" Column="1" />
+      <File FileName="Cirrious.Conference.Core/ApplicationObjects/AppStart.cs" Line="36" Column="1" />
+      <File FileName="Cirrious.Conference.UI.Touch/AppDelegate.cs" Line="76" Column="1" />
+      <File FileName="Cirrious.Conference.UI.Touch/Main.cs" Line="1" Column="1" />
+      <File FileName="Cirrious.Conference.UI.Touch/packages.config" Line="1" Column="1" />
+      <File FileName="Cirrious.Conference.Core/packages.config" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -12,10 +17,9 @@
       <Breakpoint file="/Users/tom/Dev/github/tjbooth/ciaf/Cirrious.Conference.UI.Touch/Controls/FoldingTableViewController.cs" line="75" column="1" />
       <Breakpoint file="/Users/tom/Dev/github/tjbooth/ciaf/Cirrious.Conference.UI.Touch/Cells/SponsorCell.cs" line="41" column="4" />
       <Breakpoint file="/Users/tom/Dev/github/tjbooth/ciaf/Cirrious.Conference.UI.Touch/Cells/SponsorCell.cs" line="35" column="1" />
+      <Breakpoint file="/Users/tom/Documents/development/ciaf2015/ciaf/Cirrious.Conference.Core/Models/ConferenceService.cs" line="178" column="1" />
+      <Breakpoint file="/Users/tom/Documents/development/ciaf2015/ciaf/Cirrious.Conference.Core/Models/ConferenceService.cs" line="155" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Cirrious.Conference.UI.Touch>
-    <IPhoneZipBundleSettings CurrentFolder="/Users/tom" />
-  </MonoDevelop.Ide.ItemProperties.Cirrious.Conference.UI.Touch>
 </Properties>

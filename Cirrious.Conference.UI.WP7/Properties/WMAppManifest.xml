@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="en" />
   <Languages xmlns="">
     <Language code="en" />
@@ -24,13 +24,10 @@
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">ConfResources\AppLogo.png</BackgroundImageURI>
           <Title>Chilled in a Field</Title>
-          <BackContent>
-          </BackContent>
+          <BackContent></BackContent>
           <BackBackgroundImageURI IsRelative="true" IsResource="false">ConfResources\356Flip.png</BackBackgroundImageURI>
-          <BackTitle>
-          </BackTitle>
-          <DeviceLockImageURI IsRelative="true" IsResource="false">
-          </DeviceLockImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
           <HasLarge>False</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
