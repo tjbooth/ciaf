@@ -479,7 +479,6 @@
     <BundleResource Include="Images\CIAF-iOS-Splash-1024x768.png" />
     <BundleResource Include="Images\CIAF-iOS-Splash-1536x2048.png" />
     <BundleResource Include="Images\CIAF-iOS-Splash-2048x1536.png" />
-    <BundleResource Include="Resources\.DS_Store" />
     <BundleResource Include="Resources\Images.xcassets\CIAF-iOS-AppStore-1024x1024.imageset\CIAF-iOS-AppStore-1024x1024.png" />
     <BundleResource Include="Resources\Images.xcassets\CIAF-iOS-AppStore-1024x1024.imageset\Contents.json" />
     <BundleResource Include="Resources\Images.xcassets\CIAF-iOS-BG-1024x768.imageset\CIAF-iOS-BG-1024x768.png" />
@@ -558,40 +557,7 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\58_icon.png">
       <InProject>false</InProject>
     </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default%402x.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-568h%402x.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-1.launchimage\Contents.json">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-1.launchimage\Default.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-1.launchimage\Default%402x.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-1.launchimage\Default-568h%402x.png">
-      <InProject>false</InProject>
-    </ImageAsset>
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\Contents.json">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\Default.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\Default%402x.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\Default-568h%402x.png">
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons-1.appiconset\Contents.json">
@@ -603,5 +569,12 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons-1.appiconset\120_icon.png">
       <InProject>false</InProject>
     </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\CIAF-iOS-Splash-640x1136.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\CIAF-iOS-Splash-640x960.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\CIAF-iOS-Splash-768x1024.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\CIAF-iOS-Splash-1536x2048.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\CIAF-iOS-Splash-1024x768.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\CIAF-iOS-Splash-2048x1536.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage-2.launchimage\CIAF-iOS-Splash-320x480.png" />
   </ItemGroup>
 </Project>
